@@ -4,7 +4,7 @@ main = "src/index.ts"
 compatibility_date = "2024-12-18"
 compatibility_flags = ["nodejs_compat"]
 routes = [
-  { pattern = "jklabhouse.com*", zone_id = "6e725c3b2ba18d3a5241c90fabacdacd" }
+  { pattern = "unifi-cloudflare-ddns.kwiatkowsky-josse.workers.dev", zone_id = "6e725c3b2ba18d3a5241c90fabacdacd" }
 ]
 
 # Workers Logs
