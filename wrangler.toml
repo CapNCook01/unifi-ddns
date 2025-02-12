@@ -3,6 +3,9 @@ name = "unifi-cloudflare-ddns"
 main = "src/index.ts"
 compatibility_date = "2024-12-18"
 compatibility_flags = ["nodejs_compat"]
+routes = [
+  { pattern = "jklabhouse.com*", zone_id = "6e725c3b2ba18d3a5241c90fabacdacd" }
+]
 
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
